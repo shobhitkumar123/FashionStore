@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fashion Store</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #858181;
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+
+    .navbar h1 {
+      font-size: 1.5rem;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #f39c12;
+    }
+
+    .fashion-options {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 150px;
+      transition: transform 0.3s;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .banner {
+      background-color: #ffefc2;
+      padding: 2rem;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    .sales {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .sales table {
+      margin: 0 auto;
+      width: 80%;
+      border-collapse: collapse;
+    }
+
+    .sales th, .sales td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+    }
+
+    .sales th {
+      background-color: #222;
+      color: white;
+    }
+
+    .sales tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .benefits {
+      padding: 2rem;
+      background-color: #e3f6f5;
+      text-align: center;
+    }
+
+    .benefits ul {
+      list-style: none;
+      padding-top: 1rem;
+    }
+
+    .benefits li {
+      margin: 0.5rem 0;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>Fashion Store</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="fashion-options">
+    <h2>Explore Our Styles</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Casual Wear">
+        <p>Casual Wear</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Formal Wear">
+        <p>Formal Wear</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Sportswear">
+        <p>Sportswear</p>
+      </div>
+    </div>
+  </section>
+  <section class="banner">
+    <h2>🛍️ It's Shopping Time!</h2>
+    <p>Discover the latest trends at unbeatable prices.</p>
+  </section>
+
+  <section class="sales">
+    <h2>Upcoming Sales</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Sale Event</th>
+        <th>Discount</th>
+      </tr>
+      <tr>
+        <td>Aug 5</td>
+        <td>Summer Clearance</td>
+        <td>Up to 50% Off</td>
+      </tr>
+      <tr>
+        <td>Sep 1</td>
+        <td>Back to School</td>
+        <td>Buy 1 Get 1 Free</td>
+      </tr>
+      <tr>
+        <td>Nov 25</td>
+        <td>Black Friday</td>
+        <td>Flat 70% Off</td>
+      </tr>
+    </table>
+  </section>
+  <section class="benefits">
+    <h2>Why Choose Fashion Store?</h2>
+    <ul>
+      <li>✅ Wide range of styles</li>
+      <li>✅ Affordable pricing</li>
+      <li>✅ Easy returns</li>
+      <li>✅ Fast shipping</li>
+    </ul>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

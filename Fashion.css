@@ -1,0 +1,124 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #f39c12;
+}
+
+/* Fashion Options */
+.fashion-options {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 150px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Banner */
+.banner {
+  background-color: #ffefc2;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Sales Table */
+.sales {
+  padding: 2rem;
+  text-align: center;
+}
+
+.sales table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.sales th, .sales td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+}
+
+.sales th {
+  background-color: #222;
+  color: white;
+}
+
+/* Benefits */
+.benefits {
+  padding: 2rem;
+  background-color: #e3f6f5;
+  text-align: center;
+}
+
+.benefits ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.benefits li {
+  margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
